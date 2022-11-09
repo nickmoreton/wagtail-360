@@ -1,1 +1,4 @@
 GOOGLE_MAPS_API_KEY = ""
+
+# needed when running on gitpod or testing with https://
+CSRF_TRUSTED_ORIGINS = ['https://*.gitpod.io']
